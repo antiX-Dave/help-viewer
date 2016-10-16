@@ -1,0 +1,14 @@
+case $1 in 
+ibg)
+ssh 209.183.24.242 -p141
+;;
+ri)
+ssh russellindustries.com 
+;;
+carstar)
+ssh lcgcarstar.com -p221
+;;
+seapark)
+ssh seapark.ca 
+;;
+esac
